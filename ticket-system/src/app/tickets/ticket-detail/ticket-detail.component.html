@@ -1,0 +1,13 @@
+<h2>Ticket Details</h2>
+<p><strong>Title:</strong> {{ ticket?.title }}</p>
+<p><strong>Description:</strong> {{ ticket?.description }}</p>
+<p><strong>Status:</strong> {{ ticket?.status }}</p>
+
+<label>Change Status:</label>
+<select [ngModel]="ticket?.status" (ngModelChange)="updateStatus($event)">
+  <option value="open">Open</option>
+  <option value="in-progress">In Progress</option>
+  <option value="closed">Closed</option>
+</select>
+
+<a routerLink="/tickets">Back to List</a>

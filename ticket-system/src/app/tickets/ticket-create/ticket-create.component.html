@@ -1,0 +1,11 @@
+<h2>Create Ticket</h2>
+<form (ngSubmit)="createTicket()">
+  <label>Title:</label>
+  <input [(ngModel)]="title" name="title" required />
+
+  <label>Description:</label>
+  <textarea [(ngModel)]="description" name="description" required></textarea>
+
+  <button type="submit">Create</button>
+</form>
+<a routerLink="/tickets">Back to List</a>

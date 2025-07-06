@@ -1,0 +1,20 @@
+<h2>Register</h2>
+<form (ngSubmit)="register()">
+  <label>Username:</label>
+  <input [(ngModel)]="username" name="username" required />
+
+  <label>Password:</label>
+  <input [(ngModel)]="password" name="password" type="password" required />
+
+  <label>Confirm Password:</label>
+  <input [(ngModel)]="confirmPassword" name="confirmPassword" type="password" required />
+
+  <button type="submit">Register</button>
+</form>
+
+<p *ngIf="error" style="color:red">{{ error }}</p>
+<p *ngIf="success" style="color:green">{{ success }}</p>
+
+<p>
+  <a routerLink="/login">Already have an account? Log in</a>
+</p>
