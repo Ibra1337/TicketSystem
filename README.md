@@ -1,2 +1,9 @@
-ticketSystem - contains the backend of the program and instuctions how to run it
-ticket-system - contains the forntend of the solution and instuctions how to run it
+- **`ticketSystem/`**
+  - Contains the **Django backend** code.
+  - Includes instructions on how to set up and run the backend.
+
+- **`ticket-system/`**
+  - Contains the **Angular frontend** code.
+  - Includes instructions on how to set up and run the frontend.
+
+---
