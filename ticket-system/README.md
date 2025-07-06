@@ -1,7 +1,8 @@
 ## Requirements
 
 - **Node.js** (v18+ recommended)
-- **npm** (comes with Node)
+- **npm**
+
 
 ---
 
