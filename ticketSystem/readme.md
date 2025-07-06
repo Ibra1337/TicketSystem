@@ -1,10 +1,3 @@
-**Activate the virtual environment**
-
-Open **PowerShell** (or CMD) in the project directory and run:
-
-```
-.\venv\Scripts\Activate
-```
 
 **install depenedencies**
 
@@ -28,4 +21,4 @@ Open **PowerShell** (or CMD) in the project directory and run:
     
     python manage.py runserver
    
-now te backend server should be running on port 8000
+Now the backend server should be running on port 8000
