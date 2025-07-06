@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# SQLite database
+*.sqlite3
+
+# Local environment
+.env
+*.env
+
+# VS Code settings (optional)
+.vscode/
+
+# Virtualenvs
+venv/
+ENV/
+env/
+.venv/
+
+# macOS junk
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Static files (collected)
+staticfiles/
+
+# Media files (user uploads)
+media/
+
+# Node stuff (if using frontend tooling)
+node_modules/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
